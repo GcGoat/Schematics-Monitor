@@ -13,4 +13,5 @@ By default script will only show first page on all linked screens, to get second
 Aditional information:
 You can prioritize schematics which will be shown as orange when amount is lower than 100%, this is to simply for regular users to know which ones needs to be printed and which ones are not that important.
 
-Just keep in mind that container contents can only be updated every 30 seconds PER core. So if you have multiple scripts scanning containers then it might take some extra time for contents to be updated. Soonest update will be indicated with a timer on top left corner
+Just keep in mind that container contents can only be updated every 30 seconds PER core. So if you have multiple scripts scanning containers then it might take some extra time for contents to be updated. Soonest update will be indicated with a timer on top left corner.
+Running it for the first time, dont forget to turn on screen and nothing will appear in it until container content scan is performed, which can be delayed due to previously mentioned limitations. 
