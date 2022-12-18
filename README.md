@@ -4,7 +4,9 @@
 Instalation:
 1. Place Programable Board
 2. Copy code from [HERE](https://raw.githubusercontent.com/GcGoat/Schematics-Monitor/main/LUA) and paste it into board by Right mouse click -> Advanced -> Paste Lua Configuration from Clipboard
-3. Connect PB to screen and container
+3. Connect PB to container first and then to screens. 
+
+MAIN THING is to link container to the first slot which contains needed event listeners. Rest 9 slots can b used for 9 screens. 
 
 Extra:
 You can have multiple screens by simply linking more than one screen to PB. 
