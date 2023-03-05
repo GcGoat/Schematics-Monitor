@@ -1,5 +1,5 @@
 # Schematics-Monitor
-![schematicsBank](https://user-images.githubusercontent.com/73749151/201515586-c2f3ea23-85ce-49ca-b422-88b6bad75da7.jpg)
+![schematicsBank1 2](https://user-images.githubusercontent.com/73749151/222956951-1235097e-2694-4621-923c-3cfe213657f0.jpg)
 
 Instalation:
 1. Place Programable Board
@@ -10,10 +10,12 @@ MAIN THING is to link container to the first slot which contains needed event li
 
 Extra:
 You can have multiple screens by simply linking more than one screen to PB. 
-By default script will only show first page on all linked screens, to get second page you will need to go into build mode, right click screen and rename it to **Screen_2**
+By default script will only show first page on all linked screens, to get second page you will need to go into build mode, right click screen and rename it to **Screen_2** or **Screen_3**
 
 Aditional information:
-You can prioritize schematics which will be shown as orange when amount is lower than 100%, this is to simply for regular users to know which ones needs to be printed and which ones are not that important. This needs to be done by directly editing code, was to lazy to add exported variable for it. Its straight forward way, just add "true" for schematics you want to prioritize as some existing examples in default setup.
+You can prioritize schematics which will be shown as orange when amount is lower than 100%, this to be more obvious for regular users to know which ones needs to be printed and which ones are not that important. This needs to be done by directly editing code, was to lazy to add exported variable for each of them. Its straight forward way, just add "true" for schematics you want to prioritize as some existing examples in default setup.
+Aditionally you can set schematic to "false" which will set schematic to low priority. 
+High priority schematics name turn white when amount is equal or over 100%, normal priority schematics will turn grey when there is enough of those. Low priority remains grey at all times.
 
 Just keep in mind that container contents can only be updated every 30 seconds PER player. So if you have multiple scripts scanning containers then it might take some extra time for contents to be updated. Soonest update will be indicated with a timer on top left corner.
-Running it for the first time, dont forget to turn on screen and nothing will appear in it until container content scan is performed, which can be delayed due to previously mentioned limitations. 
+Running it for the first time, nothing will appear on screen(s) until container content scan is performed, which can be delayed due to previously mentioned limitations. 
