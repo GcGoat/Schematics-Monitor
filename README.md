@@ -1,5 +1,6 @@
 # Schematics-Monitor
 ![schematicsBank1 2](https://user-images.githubusercontent.com/73749151/222956951-1235097e-2694-4621-923c-3cfe213657f0.jpg)
+![schematicsBank1 2](https://user-images.githubusercontent.com/73749151/222971961-a37273ef-46fd-42d9-b201-35fbce6243be.jpg)
 
 Instalation:
 1. Place Programable Board
@@ -7,6 +8,8 @@ Instalation:
 3. Connect PB to CONTAINER FIRST and then to screen(s). 
 
 MAIN THING is to link container to the first slot which contains needed event listeners. Rest 9 slots can be used for 9 screens. 
+
+Screen can be in vertical or horizontal position. Its state will automatically update depending on how you place monitor. Horizontal monitor will contain all 3 pages on one screen, while vertical one will contain only one page per screen.
 
 Extra:
 You can have multiple screens by simply linking more than one screen to PB. 
