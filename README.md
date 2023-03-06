@@ -19,6 +19,7 @@ Aditional information:
 You can prioritize schematics which will be shown as orange when amount is lower than 100%, this to be more obvious for regular users to know which ones needs to be printed and which ones are not that important. This needs to be done by directly editing code, was to lazy to add exported variable for each of them. Its straight forward way, just add "true" for schematics you want to prioritize as some existing examples in default setup.
 Aditionally you can set schematic to "false" which will set schematic to low priority. 
 High priority schematics name turn white when amount is equal or over 100%, normal priority schematics will turn grey when there is enough of those. Low priority remains grey at all times.
+Tile and sub borders will turn red in case linked schematics container isint set to be used as main for entire core. This can be disabled in LUA parameters window
 
 Just keep in mind that container contents can only be updated every 30 seconds PER player. So if you have multiple scripts scanning containers then it might take some extra time for contents to be updated. Soonest update will be indicated with a timer on top left corner.
 Running it for the first time, nothing will appear on screen(s) until container content scan is performed, which can be delayed due to previously mentioned limitations. 
