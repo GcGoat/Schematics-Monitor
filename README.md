@@ -1,6 +1,7 @@
 # Schematics-Monitor
 ![schematicsBank1 2](https://user-images.githubusercontent.com/73749151/222956951-1235097e-2694-4621-923c-3cfe213657f0.jpg)
-![schematicsBank1 3](https://user-images.githubusercontent.com/73749151/222972048-37fb823b-c87a-485a-8bd1-1ff88d3afe9a.jpg)
+![schematicsBank1 4](https://github.com/GcGoat/Schematics-Monitor/assets/73749151/86cdbd48-209a-4014-b7e7-531523d35851)
+
 
 Instalation:
 1. Place Programable Board
